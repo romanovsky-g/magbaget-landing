@@ -7,6 +7,10 @@
 
 /* Utilities */
 
+.overflowfix {
+	overflow-x: hidden;
+}
+
 .container {
 	max-width: 1100px;
 	margin: 0 auto;
@@ -176,7 +180,6 @@
 }
 
 .grid-3 {
-	-ms-grid-columns: (1fr) [3];
 	grid-template-columns: repeat(3, 1fr);
 }
 
