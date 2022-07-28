@@ -30,6 +30,7 @@
 </head>
 
 <body>
+
 	<!-- Sidebar -->
 
 	<div class="cover" onclick="close_sidebar()"></div>
@@ -71,234 +72,241 @@
 			</nav>
 		</div>
 	</div>
+	<div class="overflowfix">
 
-	<!-- Showcase -->
-	<section class="showcase">
-		<div class="container grid">
-			<div class="showcase-text">
-				<h1>Багетная мастерская с душой</h1>
-				<p class="lead">Оформи вышивку в одной из лучших мастерскиих
-					не выходя из дома!</p>
-				<a onclick="scroll_to('.stats')" class="btn btn-outline">О нас</a>
+		<!-- Showcase -->
+		<section class="showcase">
+			<div class="container grid">
+				<div class="showcase-text">
+					<h1>Багетная мастерская с душой</h1>
+					<p class="lead">Оформи работу в одной из лучших мастерскиих
+						не выходя из дома!</p>
+					<a onclick="scroll_to('.stats')" class="btn btn-outline">О нас</a>
+				</div>
+				<img src="img/painting1.png" alt="" class="showcase-frame">
 			</div>
-			<img src="img/painting1.png" alt="" class="showcase-frame">
-		</div>
-	</section>
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 140" class="showcase-wave">
-		<path fill="#faedcd" fill-opacity="1"
-			d="M0,128L80,128C160,128,320,128,480,112C640,96,800,64,960,53.3C1120,43,1280,53,1360,58.7L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
-		</path>
-	</svg>
+		</section>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 140" class="showcase-wave">
+			<path fill="#faedcd" fill-opacity="1"
+				d="M0,128L80,128C160,128,320,128,480,112C640,96,800,64,960,53.3C1120,43,1280,53,1360,58.7L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+			</path>
+		</svg>
 
-	<!-- Stats -->
-	<section class="stats">
-		<div class="container">
-			<h3 class="stats-heading text-center my-1">
-				Наши услуги
+		<!-- Stats -->
+		<section class="stats">
+			<div class="container">
+				<h3 class="stats-heading text-center my-1 md">
+					Наши услуги
+				</h3>
+				<div class="my-4">
+
+					<div class="stats-text-box card">
+						<i class="fas fa-hand-holding-heart fa-3x"></i>
+						<h2 class="text-secondary stats-text">Бережное обратимое оформление</h2>
+						<p>К каждой работе наши мастера подходят с предельной точностью и заботой.</p>
+					</div>
+					<div class="stats-text-box card">
+						<i class="fas fa-stopwatch fa-3x"></i>
+						<h2 class="text-secondary stats-text">Срок изготовления заказа - 5 дней</h2>
+						<p>Максимальный срок изготовления - 5 дней, но чаще всего процесс занимет не более 2 дней.</p>
+					</div>
+					<div class="stats-text-box card">
+						<i class="fas fa-check fa-3x"></i>
+						<h2 class="text-secondary stats-text">Гарантия - 12 месяцев</h2>
+						<p>На каждый заказ мы даем гарантию 12 месяцов, на случай если багет бракованный.</p>
+					</div>
+					<div class="stats-text-box card">
+						<i class="fas fa-truck fa-3x"></i>
+						<h2 class="text-secondary stats-text">Доставка по России бесплатно при заказе от 2000 руб</h2>
+						<p>Используя новейшие технологии наша мастерская выполняет доставку по всей России.</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Questions -->
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -1rem;">
+			<path fill="#044aed" fill-opacity="1"
+				d="M0,32L120,69.3C240,107,480,181,720,192C960,203,1200,149,1320,122.7L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+			</path>
+		</svg>
+		<section class="questions">
+			<div class="container">
+				<h3 class="questions-heading md">Часто задаваемые вопросы</h3>
+				<button class="accordion">Какую гарантию Вы предоставляете?</button>
+				<div class="panel">
+					<p>Наша багетная мастерская даёт гарантию на все работы, которые мы делаем, особенно на ручную
+						натяжку
+						вышивок и сложных тканевых изделий.
+						Гарантия на багетный заказ, изготовленный в нашей мастерской, даётся на 12 месяцев, при условии
+						бережного хранения изделия.
+						То есть, если Вы уроните или нагреете изделие на солнце или батарее, то мы не сможем переделать
+						ее
+						бесплатно. Но если, по нашей вине, мы что-то упустили при изготовлении, то мы переделаем изделие
+						с
+						извинениями, либо возвращаем деньги.</p>
+				</div>
+
+				<button class="accordion">Как в Вашей мастерской натягивают вышивки?</button>
+				<div class="panel">
+					<p>Мы натягиваем вышивки двумя способами: обратимая натяжка на Ph-нейтральную основу при помощи
+						двустороннего вспенненого скотча и натяжка на Ph-нейтральную основу при помощи нитей. Второй
+						способ
+						применяется при натяжке обветшавших вышивок или для архивного музейного хранения. По Вашему
+						желанию
+						можно использовать любой из этих способов.</p>
+				</div>
+
+				<button class="accordion">Что такое бережное обратимое оформление?</button>
+				<div class="panel">
+					<p> <b>Вот принципы бережного обратимого оформления:</b>
+						<br><br>
+						<b>Закон первый - НЕ НАВРЕДИ!</b>
+						<br>
+						Он означает, что любой объект, попавший в нашу багетную мастерскую, не должен быть ни коим
+						образом
+						видоизменен, или испытать какие либо воздействия, могущие повлиять на его состояние в будущем.
+						Наши
+						багетные мастера не имеют права обрезать поля фотографий, плакатов, канвы вышивок и прочего,
+						если на
+						это не поступило прямое указание заказчика, и это не зафиксировано в бланке заказа.
+						<br><br>
+						<b>Закон второй - ПРЕДОТВРАТИ!</b>
+						<br>
+						Мы знаем, как поведет себя со временем обрамляемый предмет, какие скрытые разрушительные
+						процессы
+						могут проистекать в нем. Недопустимо использовать материалы, которые могут оказать негативное
+						воздействие на оформляемое произведение. Все материалы, используемые в нашей багетной мастерской
+						проверены на совместимость с оформляемой вещью или подобными ей.
+						<br><br>
+						<b>Закон третий - СОХРАНИ!</b>
+						<br>
+						Данный закон вытекает из постулата, что «все что вставлено, может быть вынуто!» На практике он
+						означает, что любой оформленный предмет может быть по прошествии времени возвращен в
+						первоначальное
+						состояние. При этом на нем не должно оставаться никаких следов, возникших в результате нашей
+						работы.
+						Также обрамление должно способствовать продлению жизни оформляемым объектам и защищать их от
+						механических, климатических и прочих воздействий.<br><br>
+						Спасибо Айвару Пожарскому за ясную и точную формулировку принципов багетного дела.
+					</p>
+				</div>
+
+			</div>
+		</section>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path fill="#044aed" fill-opacity="1"
+				d="M0,288L120,250.7C240,213,480,139,720,133.3C960,128,1200,192,1320,224L1440,256L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+			</path>
+		</svg>
+
+		<!-- gallery -->
+		<secction class="gallery">
+			<h3 class="gallery-heading text-center my-1">
+				Галлерея
 			</h3>
-			<div class="my-4">
-
-				<div class="stats-text-box card">
-					<i class="fas fa-hand-holding-heart fa-3x"></i>
-					<h2 class="text-secondary stats-text">Бережное обратимое оформление</h2>
-					<p>К каждой работе наши мастера подходят с предельной точностью и заботой.</p>
-				</div>
-				<div class="stats-text-box card">
-					<i class="fas fa-stopwatch fa-3x"></i>
-					<h2 class="text-secondary stats-text">Срок изготовления заказа - 5 дней</h2>
-					<p>Максимальный срок изготовления - 5 дней, но чаще всего процесс занимет не более 2 дней.</p>
-				</div>
-				<div class="stats-text-box card">
-					<i class="fas fa-check fa-3x"></i>
-					<h2 class="text-secondary stats-text">Гарантия - 12 месяцев</h2>
-					<p>На каждый заказ мы даем гарантию 12 месяцов, на случай если багет бракованный.</p>
-				</div>
-				<div class="stats-text-box card">
-					<i class="fas fa-truck fa-3x"></i>
-					<h2 class="text-secondary stats-text">Доставка по России бесплатно при заказе от 2000 руб</h2>
-					<p>Используя новейшие технологии наша мастерская выполняет доставку по всей России.</p>
-				</div>
-
-			</div>
-		</div>
-		</div>
-	</section>
-
-	<!-- Questions -->
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -1rem;">
-		<path fill="#044aed" fill-opacity="1"
-			d="M0,32L120,69.3C240,107,480,181,720,192C960,203,1200,149,1320,122.7L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-		</path>
-	</svg>
-	<section class="questions">
-		<div class="container">
-			<h3 class="questions-heading md">Часто задаваемые вопросы</h3>
-			<button class="accordion">Какую гарантию Вы предоставляете?</button>
-			<div class="panel">
-				<p>Наша багетная мастерская даёт гарантию на все работы, которые мы делаем, особенно на ручную натяжку
-					вышивок и сложных тканевых изделий.
-					Гарантия на багетный заказ, изготовленный в нашей мастерской, даётся на 12 месяцев, при условии
-					бережного хранения изделия.
-					То есть, если Вы уроните или нагреете изделие на солнце или батарее, то мы не сможем переделать ее
-					бесплатно. Но если, по нашей вине, мы что-то упустили при изготовлении, то мы переделаем изделие с
-					извинениями, либо возвращаем деньги.</p>
-			</div>
-
-			<button class="accordion">Как в Вашей мастерской натягивают вышивки?</button>
-			<div class="panel">
-				<p>Мы натягиваем вышивки двумя способами: обратимая натяжка на Ph-нейтральную основу при помощи
-					двустороннего вспенненого скотча и натяжка на Ph-нейтральную основу при помощи нитей. Второй способ
-					применяется при натяжке обветшавших вышивок или для архивного музейного хранения. По Вашему желанию
-					можно использовать любой из этих способов.</p>
-			</div>
-
-			<button class="accordion">Что такое бережное обратимое оформление?</button>
-			<div class="panel">
-				<p> <b>Вот принципы бережного обратимого оформления:</b>
-					<br><br>
-					<b>Закон первый - НЕ НАВРЕДИ!</b>
-					<br>
-					Он означает, что любой объект, попавший в нашу багетную мастерскую, не должен быть ни коим образом
-					видоизменен, или испытать какие либо воздействия, могущие повлиять на его состояние в будущем. Наши
-					багетные мастера не имеют права обрезать поля фотографий, плакатов, канвы вышивок и прочего, если на
-					это не поступило прямое указание заказчика, и это не зафиксировано в бланке заказа.
-					<br><br>
-					<b>Закон второй - ПРЕДОТВРАТИ!</b>
-					<br>
-					Мы знаем, как поведет себя со временем обрамляемый предмет, какие скрытые разрушительные процессы
-					могут проистекать в нем. Недопустимо использовать материалы, которые могут оказать негативное
-					воздействие на оформляемое произведение. Все материалы, используемые в нашей багетной мастерской
-					проверены на совместимость с оформляемой вещью или подобными ей.
-					<br><br>
-					<b>Закон третий - СОХРАНИ!</b>
-					<br>
-					Данный закон вытекает из постулата, что «все что вставлено, может быть вынуто!» На практике он
-					означает, что любой оформленный предмет может быть по прошествии времени возвращен в первоначальное
-					состояние. При этом на нем не должно оставаться никаких следов, возникших в результате нашей работы.
-					Также обрамление должно способствовать продлению жизни оформляемым объектам и защищать их от
-					механических, климатических и прочих воздействий.<br><br>
-					Спасибо Айвару Пожарскому за ясную и точную формулировку принципов багетного дела.
-				</p>
-			</div>
-
-		</div>
-	</section>
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-		<path fill="#044aed" fill-opacity="1"
-			d="M0,288L120,250.7C240,213,480,139,720,133.3C960,128,1200,192,1320,224L1440,256L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
-		</path>
-	</svg>
-
-	<!-- gallery -->
-	<secction class="gallery">
-		<h3 class="gallery-heading text-center my-1">
-			Галлерея
-		</h3>
-		<div class="swiper-container">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide" style="background-image:url(img/gallery/photo1.jpg)">
-				</div>
-				<div class="swiper-slide" style="background-image:url(img/gallery/photo2.jpg)">
-				</div>
-				<div class="swiper-slide" style="background-image:url(img/gallery/photo3.jpg)">
-				</div>
-				<div class="swiper-slide" style="background-image:url(img/gallery/photo4.jpg)">
-				</div>
-				<div class="swiper-slide" style="background-image:url(img/gallery/photo5.jpg)">
-				</div>
-				<div class="swiper-slide" style="background-image:url(img/gallery/photo6.jpg)">
-				</div>
-				<div class="swiper-slide" style="background-image:url(img/gallery/photo7.jpg)">
-				</div>
-				<div class="swiper-slide" style="background-image:url(img/gallery/photo8.jpg)">
-				</div>
-				<div class="swiper-slide" style="background-image:url(img/gallery/photo9.jpg)">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" style="background-image:url(img/gallery/photo1.jpg)">
+					</div>
+					<div class="swiper-slide" style="background-image:url(img/gallery/photo2.jpg)">
+					</div>
+					<div class="swiper-slide" style="background-image:url(img/gallery/photo3.jpg)">
+					</div>
+					<div class="swiper-slide" style="background-image:url(img/gallery/photo4.jpg)">
+					</div>
+					<div class="swiper-slide" style="background-image:url(img/gallery/photo5.jpg)">
+					</div>
+					<div class="swiper-slide" style="background-image:url(img/gallery/photo6.jpg)">
+					</div>
+					<div class="swiper-slide" style="background-image:url(img/gallery/photo7.jpg)">
+					</div>
+					<div class="swiper-slide" style="background-image:url(img/gallery/photo8.jpg)">
+					</div>
+					<div class="swiper-slide" style="background-image:url(img/gallery/photo9.jpg)">
+					</div>
 				</div>
 			</div>
-		</div>
-	</secction>
+		</secction>
 
-	<!-- Calc -->
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -1rem;">
-		<path fill="#044aed" fill-opacity="1"
-			d="M0,224L80,192C160,160,320,96,480,96C640,96,800,160,960,165.3C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
-		</path>
-	</svg>
-	<section class="calc">
-		<div class="container">
-			<div class="calc-container">
-				<div class="calc-form">
-					<h3 class="calc-heading">Калькулятор</h3>
-					<input type="number" name="lenght" placeholder="Длина (см)" required>
-					<input type="number" name="width" placeholder="Ширина (см)" required>
+		<!-- Calc -->
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -1rem;">
+			<path fill="#044aed" fill-opacity="1"
+				d="M0,224L80,192C160,160,320,96,480,96C640,96,800,160,960,165.3C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+			</path>
+		</svg>
+		<section class="calc">
+			<div class="container">
+				<div class="calc-container">
+					<div class="calc-form">
+						<h3 class="calc-heading">Калькулятор</h3>
+						<input id="calcH" type="number" name="height" placeholder="Длина (см)" required>
+						<input id="calcW" type="number" name="width" placeholder="Ширина (см)" required>
 
-					<label class="check-container">
-						<span>Эконом</span>
-						<input type="radio" checked="checked" name="radio">
-						<span class="checkmark"></span>
-					</label>
-					<label class="check-container">
-						<span>Стандарт</span>
-						<input type="radio" name="radio">
-						<span class="checkmark"></span>
-					</label>
-					<label class="check-container">
-						<span>Премиум</span>
-						<input type="radio" name="radio">
-						<span class="checkmark"></span>
-					</label>
-					<label class="check-container">
-						<span>Люкс</span>
-						<input type="radio" name="radio">
-						<span class="checkmark"></span>
-					</label>
+						<label class="check-container">
+							<span>Эконом</span>
+							<input type="radio" checked="checked" name="calcType" value="1">
+							<span class="checkmark"></span>
+						</label>
+						<label class="check-container">
+							<span>Стандарт</span>
+							<input type="radio" name="calcType" value="2">
+							<span class="checkmark"></span>
+						</label>
+						<label class="check-container">
+							<span>Премиум</span>
+							<input type="radio" name="calcType" value="3">
+							<span class="checkmark"></span>
+						</label>
 
-					<a class="btn btn-outline">Рассчитать</a>
+						<a class="btn btn-outline" onclick="calcCost();">Рассчитать</a>
+					</div>
+					<img src="img/calc1.svg" alt="">
 				</div>
-				<img src="img/calc1.svg" alt="">
+				<div class="calc-end">
+					<h3 class="calc-title">Предварительная стоимость оформления</h3>
+					<h3 class="calc-result">0.00 руб.</h3>
+				</div>
 			</div>
-			<div class="calc-end">
-				<h3 class="calc-title">Предварительная стоимость оформления вышивки</h3>
-				<h3 class="calc-result">2783.00 руб</h3>
-			</div>
-		</div>
-	</section>
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-		<path fill="#044aed" fill-opacity="1"
-			d="M0,96L80,90.7C160,85,320,75,480,106.7C640,139,800,213,960,208C1120,203,1280,117,1360,74.7L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
-		</path>
-	</svg>
+		</section>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path fill="#044aed" fill-opacity="1"
+				d="M0,96L80,90.7C160,85,320,75,480,106.7C640,139,800,213,960,208C1120,203,1280,117,1360,74.7L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+			</path>
+		</svg>
 
-	<!-- Contact -->
-	<section class="contact">
-		<div class="container">
-			<h3 class="xl">Связаться с нами</h3>
-			<h3 class="md">
-				<c style="color: #de7909;">Адрес:</c> г. Магнитогорск, ул. Ленинградская 33
-			</h3>
-			<h3 class="md">
-				<c style="color: #0eb316;">Телефон:</c> +7 (3519) 33-08-52
-			</h3>
-			<h3 class="md">
-				<c style="color: #095bde;">Электронная почта:</c> magbaget@gmail.com
-			</h3>
-		</div>
-	</section>
+		<!-- Contact -->
+		<section class="contact">
+			<div class="container">
+				<h3 class="lg">Связаться с нами</h3>
+				<h3 class="md">
+					<c style="color: #de7909;">Адрес:</c> г. Магнитогорск, ул. Ленинградская 33
+				</h3>
+				<h3 class="md">
+					<c style="color: #0eb316;">Телефон:</c> +7 (3519) 33-08-52
+				</h3>
+				<h3 class="md">
+					<c style="color: #095bde;">Электронная почта:</c> magbaget@gmail.com
+				</h3>
+			</div>
+		</section>
 
-	<!-- Footer -->
-	<footer class="footer py-5">
-		<div class="container flex">
-			<div>
-				<h1>Золотой Квадрат.</h1>
-				<p>Copyright &copy; 2020</p>
+		<!-- Footer -->
+		<footer class="footer py-5">
+			<div class="container flex">
+				<div>
+					<h1>Золотой Квадрат.</h1>
+					<p>Copyright &copy; 2022</p>
+				</div>
+				<div class="social">
+					<a href="#" target="_blank"><i
+							class="fab fa-instagram fa-2x"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-vk fa-2x"></i></a>
+				</div>
 			</div>
-			<div class="social">
-				<a href="https://www.instagram.com/ramki_magnitogorsk/" target="_blank"><i
-						class="fab fa-instagram fa-2x"></i></a>
-				<a href="https://vk.com/ramki_instavk" target="_blank"><i class="fab fa-vk fa-2x"></i></a>
-			</div>
-		</div>
-	</footer>
+		</footer>
+	</div>
 
 </body>
 
